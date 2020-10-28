@@ -11,7 +11,7 @@ const burger =(props)=>{
                 return arr.concat(el)
             },[]);
     //[... Array(3)] crea un arreglo con length 3 >>[undefine,undefine,undefine] vacio   
-    console.log(transformedIngredients)
+    //console.log(transformedIngredients)
 
     if(transformedIngredients.length ===0){
         transformedIngredients=<p>Please start adding your favorite ingredients</p>
